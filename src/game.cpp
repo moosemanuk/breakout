@@ -12,5 +12,16 @@ void Breakout::Initialise()
 
 void Breakout::Draw()
 {
-    DrawTexture(background, 0, 0, WHITE);
+    DrawTexture(background, 0, 0, WHITE);  
+    paddle.Draw();
+}
+
+void Breakout::HandleInput()
+{
+    if(IsKeyDown(KEY_A)){
+        paddle.MoveLeft();
+    }
+    if(IsKeyDown(KEY_D)){
+        paddle.MoveRight();
+    }
 }

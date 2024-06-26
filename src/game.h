@@ -12,5 +12,6 @@ class Breakout{
         Breakout();
         void Initialise();
         void Draw();
+        void HandleInput();
 
 };

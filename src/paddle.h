@@ -12,7 +12,8 @@ class Paddle{
 
     public:
         Paddle();
-        void Draw(int position);
-        void ProcessEvents();
+        void Draw();
+        void MoveLeft();
+        void MoveRight();       
 
 };
