@@ -1,7 +1,7 @@
 #include <raylib.h>
+#include "constants.h"
 
-const int SCREEN_WIDTH = 800;
-const int SCREEN_HEIGHT = 600;
+using namespace Constants;
 
 int main()
 {
