@@ -6,7 +6,7 @@ using namespace Constants;
 int main()
 {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Breakout");
-    SetTargetFPS(60);
+    SetTargetFPS(TARGET_FPS);
 
     while (!WindowShouldClose())
     {
