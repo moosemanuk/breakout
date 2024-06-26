@@ -1,4 +1,5 @@
 #pragma once
+#include <raylib.h>
 
 namespace Constants {
 
@@ -8,6 +9,10 @@ namespace Constants {
 
     const int PADDLE_WIDTH = 100;
     const int PADDLE_HEIGHT = 20;
+    const int PADDLE_SPEED = 5;
+    const int PADDLE_Y = SCREEN_HEIGHT - SCREEN_HEIGHT/10;
+    const Color PADDLE_COLOUR = WHITE;
+
     const int BALL_RADIUS = 20;
 
 }
