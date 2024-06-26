@@ -15,9 +15,7 @@ void Paddle::Draw(){
     rec.x = position;
     rec.y = PADDLE_Y;
 
-    DrawRectangleRounded(rec, 1, 1, WHITE);
-    
-    
+    DrawRectangleRounded(rec, 1, 1, WHITE);   
 }
 
 void Paddle::MoveLeft()
