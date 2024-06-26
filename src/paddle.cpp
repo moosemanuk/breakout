@@ -8,7 +8,16 @@ Paddle::Paddle()
 }
 
 void Paddle::Draw(){
-    DrawRectangle(position, PADDLE_Y, PADDLE_WIDTH, PADDLE_HEIGHT, WHITE);
+    //DrawRectangle(position, PADDLE_Y, PADDLE_WIDTH, PADDLE_HEIGHT, WHITE);
+    Rectangle rec;
+    rec.height = PADDLE_HEIGHT;
+    rec.width = PADDLE_WIDTH;
+    rec.x = position;
+    rec.y = PADDLE_Y;
+
+    DrawRectangleRounded(rec, 1, 1, WHITE);
+    
+    
 }
 
 void Paddle::MoveLeft()
