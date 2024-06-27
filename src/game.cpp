@@ -50,7 +50,7 @@ void Breakout::CheckCollision()
             if(CheckCollisionCircleRec(loc, BALL_RADIUS, rec)){
 
                 if(grid.grid[i][j] >= 0){
-                    if(ball.GetY() - BALL_RADIUS + 1 == rec.y + rec.height || ball.GetY() + BALL_RADIUS == rec.y){
+                    if(ball.GetY() - BALL_RADIUS == rec.y + rec.height || ball.GetY() + BALL_RADIUS == rec.y){
                         ball.ChangeYDirection();
                     }
                     else{
