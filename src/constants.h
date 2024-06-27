@@ -14,10 +14,11 @@ namespace Constants {
     const Color PADDLE_COLOUR = WHITE;
 
     const float BALL_RADIUS = 10;
-    const int BALL_SPEED = 5;
+    const int BALL_SPEED = 10;
 
     const int GRID_ROWS = 8;
     const int GRID_COLUMNS = 10;
+    const int GRID_OFFSET = 15;
 
     const int BLOCK_WIDTH = 80;
     const int BLOCK_HEIGHT = 30;
