@@ -2,19 +2,21 @@
 
 Breakout::Breakout()
 {
-
+    this->background = LoadTexture("res\\background.png"); 
+    this->ball = Ball();
+    this->paddle = Paddle();
+    this->grid = Grid();
 }
 
 void Breakout::Initialise()
 {
-    this->background = LoadTexture("res\\background.png"); 
-    this->ball = Ball();
-    this->paddle = Paddle();
+    grid.Initialise();    
 }
 
 void Breakout::Draw()
 {
-    DrawTexture(background, 0, 0, WHITE);  
+    DrawTexture(background, 0, 0, WHITE); 
+    grid.Draw(); 
     paddle.Draw();
     ball.Update();
     ball.Draw();

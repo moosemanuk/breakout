@@ -2,6 +2,7 @@
 #include <raylib.h>
 #include "paddle.h"
 #include "ball.h"
+#include "grid.h"
 #include "constants.h"
 
 class Breakout{
@@ -16,5 +17,6 @@ class Breakout{
         void Draw();
         void HandleInput();
         void CheckCollision();
+        Grid grid;
 
 };
