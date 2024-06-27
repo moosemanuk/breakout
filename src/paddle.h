@@ -6,7 +6,7 @@ using namespace Constants;
 
 class Paddle{
     private:
-        int position;
+        float position;
         int speed;
         Color colour;        
 
@@ -15,5 +15,6 @@ class Paddle{
         void Draw();
         void MoveLeft();
         void MoveRight();       
+        float GetPosition();
 
 };

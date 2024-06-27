@@ -28,3 +28,7 @@ void Paddle::MoveRight()
     this->position += PADDLE_SPEED;
 }
 
+float Paddle::GetPosition()
+{
+    return position;
+}

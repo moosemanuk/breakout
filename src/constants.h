@@ -13,7 +13,7 @@ namespace Constants {
     const int PADDLE_Y = SCREEN_HEIGHT - SCREEN_HEIGHT/10;
     const Color PADDLE_COLOUR = WHITE;
 
-    const int BALL_RADIUS = 20;
+    const float BALL_RADIUS = 10;
     const int BALL_SPEED = 5;
 
 }

@@ -15,5 +15,6 @@ class Breakout{
         void Initialise();
         void Draw();
         void HandleInput();
+        void CheckCollision();
 
 };

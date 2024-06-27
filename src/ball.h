@@ -6,7 +6,7 @@ class Ball{
     private:
         int x;
         int y;
-        int radius;
+        float radius;
         int x_speed;
         int y_speed;
         Color colour;
@@ -15,4 +15,9 @@ class Ball{
         Ball();
         void Draw();
         void Update();
+        float GetX();
+        float GetY();
+        float GetRadius();
+        void ChangeXDirection();
+        void ChangeYDirection();
 };
