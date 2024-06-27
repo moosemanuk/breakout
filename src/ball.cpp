@@ -6,6 +6,8 @@ Ball::Ball()
 {
     this->radius = BALL_RADIUS;
     this->colour = WHITE;
+    this->x_speed = BALL_SPEED;
+    this->y_speed = BALL_SPEED;
 }
 
 void Ball::Draw()
@@ -15,6 +17,6 @@ void Ball::Draw()
 
 void Ball::Update()
 {
-    x += BALL_SPEED;
-    y += BALL_SPEED;
+    x += x_speed;
+    y += y_speed;
 }
