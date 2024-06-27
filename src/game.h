@@ -1,11 +1,13 @@
 #pragma once
 #include <raylib.h>
 #include "paddle.h"
+#include "ball.h"
 #include "constants.h"
 
 class Breakout{
     private:
         Paddle paddle;
+        Ball ball;
         Texture2D background;
 
     public:

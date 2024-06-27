@@ -12,4 +12,5 @@ class Ball{
     public:
         Ball();
         void Draw();
+        void Update();
 };

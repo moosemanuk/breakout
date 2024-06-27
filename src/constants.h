@@ -14,5 +14,7 @@ namespace Constants {
     const Color PADDLE_COLOUR = WHITE;
 
     const int BALL_RADIUS = 20;
+    const int BALL_SPEED = 5;
+    
 
 }

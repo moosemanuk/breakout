@@ -14,6 +14,7 @@ void Breakout::Draw()
 {
     DrawTexture(background, 0, 0, WHITE);  
     paddle.Draw();
+    ball.Draw();
 }
 
 void Breakout::HandleInput()
