@@ -1,3 +1,6 @@
 *.exe
 *.dsym
 main
+/x64/Debug
+/breakout/x64/Debug
+/.vs
